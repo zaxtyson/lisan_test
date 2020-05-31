@@ -177,7 +177,6 @@ if __name__ == '__main__':
 
     f1 = Formula('(a^b->c)vd')
     f2 = Formula('a->b^c^(cvd)')
-    input(f1.to_suffix_expr("(0∧0→1)∨1"))
 
     print("原命题公式: ", f1.get_expr())
     print("主析取范式: ", f1.get_disjunctive())
